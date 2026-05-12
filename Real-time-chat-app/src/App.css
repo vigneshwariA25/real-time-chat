@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f0f2f5;
+}
+
+/* Join screen */
+input {
+  padding: 10px;
+  margin: 5px;
+  width: 250px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #25d366;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1ebd5a;
+}
+
+/* Chat container */
+.chat-container {
+  width: 900px;
+  margin: 30px auto;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+/* Header */
+.chat-header {
+  background: #075e54;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+/* Messages area */
+.chat-body {
+  height: 300px;
+  padding: 10px;
+  overflow-y: auto;
+  width: 100px;
+}
+
+/* Single message */
+.message {
+  margin-bottom: 8px;
+}
+
+.message strong {
+  color: #075e54;
+}
+
+/* Typing */
+.typing {
+  font-size: 12px;
+  color: gray;
+  padding-left: 10px;
+}
+
+/* Footer */
+.chat-footer {
+  display: flex;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+}
+
+.chat-footer input {
+  flex: 1;
+}
+
+/* =========================
+   WHATSAPP STYLE UPGRADE
+   ========================= */
+
+/* Online users bar */
+/* .chat-container > div:nth-child(2) {
+  background: #f0f2f5;
+  padding: 6px 10px;
+  font-size: 13px;
+  border-bottom: 1px solid #ddd;
+}
+
+
+.message {
+  background: #dcf8c6;
+  padding: 6px 10px;
+  border-radius: 6px;
+  margin-bottom: 6px;
+  width: fit-content;
+  max-width: 80%;
+}
+
+.chat-footer {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+} */
+
+/* ✅ EMOJI CONTAINER — HORIZONTAL */
+.emoji {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+}
+
+/* Emoji buttons */
+.emoji-btn {
+  background: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 4px;
+  line-height: 1;
+}
+
+.emoji-btn:hover {
+  transform: scale(1.2);
+}
+
+/* Input box */
+/* .chat-footer input {
+  flex: 1;
+  padding: 8px 12px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  outline: none;
+} */
+
+/* Send button */
+/* .chat-footer button {
+  background: #25d366;
+  border-radius: 20px;
+  padding: 8px 16px;
+} */
+
+/* Typing indicator */
+/* .typing {
+  padding-left: 10px;
+  font-size: 12px;
+  color: #666;
+} */
